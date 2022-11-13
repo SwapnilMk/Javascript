@@ -20,4 +20,5 @@ let obj = {   //this is non primitive datatypes
   "name" : "swapyy",
   "surname": "mahadik"
 }
+
 console.log(obj["name"], obj.surname)
