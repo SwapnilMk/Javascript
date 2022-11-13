@@ -59,3 +59,7 @@ console.log(false || false) //false
 // ! (logical not) operator
 console.log(!true) //false
 console.log(!false) //true
+
+//turnary operator
+let num = 122;
+console.log(num<22? `true`:`false`)
