@@ -33,9 +33,12 @@ switch(name){
 
 
 
+//turnary operator
+// let num = 122;
+// console.log(num<22? `true`:`false`)
 
 
-
-
+let agee = 7;
+console.log(agee>=18? `you can drive`: `you cannot`);
 
 
