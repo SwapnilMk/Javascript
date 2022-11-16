@@ -42,3 +42,58 @@ let agee = 7;
 console.log(agee>=18? `you can drive`: `you cannot`);
 
 
+
+
+
+// conditional statements  
+
+
+// if else statement 
+
+// let name = `swapyy`
+// let surname = `mahadik`
+// let age = 222010;
+
+// if (age > 2234) {
+//     console.log(`age is correct`)
+
+// } else {
+//     console.log(`age is not correct`)
+
+// }
+
+
+
+// age = 18;
+
+
+// switch statement 
+
+// let myName = `swapy`;
+
+// switch(myName){
+//     case 1:
+//         console.log(`name is 1`)
+//         break;
+//     case `swapy`:
+//         console.log(`name is ${myName}`)
+//         break;
+//     case `samiyaah`:
+//         console.log(`name is ${myName}`);
+//         break;
+//     default:
+//         console.log(`first`)
+// }
+
+
+// switch (age) {
+//     case 18: 
+//         console.log(`fuvk`);
+//         break;
+
+//     default: 
+//     console.log(`shit`)
+
+//         break;
+// }
+

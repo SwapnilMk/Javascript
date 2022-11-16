@@ -61,3 +61,53 @@ console.log("all about variables let var and const")
 // let name; //do this  //output undefine
 // var name; //do this  //output undefine
 
+
+
+
+// diffrent ways to declare variable 
+
+// const name = `swapyy`;
+// const surname = `mahadik`;
+// const age = 22;
+// console.log(`my name is ${name} ${surname} my age is ${age}`);
+
+
+
+
+// function checkScope() {
+//     var name = `swapyy`; // this is only function level scope and this is not accessible in outside of the function
+//     console.log(name);
+// }
+// console.log(name); output is undefine
+
+// var name = `swapyy`; //this is global scope access everywhere
+
+
+// var name = `swapyy`;
+// var num = 12;
+
+// if(num > 1){
+//     var name = `swapnil`;
+// }
+
+// console.log(name)
+
+
+// const cannot be updated or re-declared
+// const greet = {
+//     sayhi : `hello`
+// }
+
+
+// greet.sayhi = `sat`
+// console.log(greet.sayhi);
+
+
+
+// {
+//     var a = 12
+//     console.log(a);
+// }
+
+// console.log(a);
+
