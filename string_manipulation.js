@@ -27,6 +27,12 @@ console.log(name.concat(` my surname is ` ,  surname , ` ok`))
 
 
 
-for(let i =0; i < name.length; i++){
-    console.log(name[i]);
-}
+// for(let i =0; i < name.length; i++){
+//     console.log(name[i]);
+// }
+
+
+let word = `give me rs 200`
+let amt = Number.parseInt(word.slice(`give me rs `.length));
+console.log(amt)
+console.log(typeof amt)

@@ -1,47 +1,4 @@
 
-// arrays
-const marks = [80, 78, 67, 86, 90];
-let arr = [`swapyy`, `samiyaah`, `loeksh`, `swapnil`]
-// let arra = marks.concat(arr);
-// let arra = arr.join(marks)
-// let arra = Array.of(4)
-// let arra = new Array(`name`, 12)
-// console.log(arr)
-
-
-// for(let i=0; i < name.length; i++){
-//     console.log(name[i])
-// }
-
-// name.forEach((value) => {
-//     console.log(value)
-// })
-
-// const arr = new Array(12,3,4,234,3245);
-// console.log(arr);
-// console.log(name);
-// arr.unshift(`swapyy`); add 1st element in array
-// arr.push(`last`); add last element in array
-// arr.shift(); remove 1st element in  array
-// arr.pop(); remove last element in array
-// arr.splice(0,3);
-// arr.reverse();
-// console.log(arr.includes(4,0));                                 
-// console.log(arr.toString());
-// let a = arr.concat(marks);
-// console.log(a);
-
-// console.log(arr.length);
-// console.log(Array.isArray(arr));
-
-// arr[0] =`swapyy`;
-// console.log(arr);
-
-
-
-// let val = arr.indexOf(234);
-// console.log(val);
-
 
 
 // objects 
@@ -72,33 +29,6 @@ let arr = [`swapyy`, `samiyaah`, `loeksh`, `swapnil`]
 
 
 
-
-// Arrays 
-
-// let arr = [1,213,4,5,6,7,8,3];
-
-// let arr =new Array(12,2,4,5,6,7,8,3);
- 
-
-
-
-// const myobj = {
-//     name: `swapyy`,
-//     age: 22,
-//     surname: function(){
-//         return `mahadik`
-//     }
-// };
-
-// console.log(`my surname is ${myobj.surname()}`)
-
-
-
-// let arr = [34,4,345,436,567,4343,214,324,2,4321,423,4]
-
-// arr.forEach(function(element, index,array) {
-//     console.log(element, index, array)
-// });
 
 
 
