@@ -4,6 +4,8 @@
 
 
 
+
+
 // document.body.style.background = `red`
 
 
@@ -82,6 +84,98 @@
 // let table = document.getElementsByClassName(`container`)[1].firstElementChild
 
 // console.log(table.rows);
+
+
+// innerHTML //get and set get html inside the string // only for elemnt nodes
+
+// outerHTML //get outer and inner html both //we can set and get 
+
+// .data 
+// .nodeValue 
+// .textContent //get all text from content
+// .hidden = false 
+
+
+
+
+
+// attribute methods 
+// let att = document.getElementById(`first`).getAttribute(`class`)
+// console.log(att)
+
+let attr = document.getElementById(`first`)
+// console.log(attr.hasAttribute(`style`))
+
+// attr.setAttribute(`hidden`, true)
+// attr.removeAttribute(`class`)
+// console.log(attr.attributes);
+
+
+// custom attributes 
+// let attri = document.getElementById(`swap`)
+// attri.setAttribute(`data-game`,`gtaV`)
+// attri.setAttribute(`data-game1`,`fortnite`)
+// attri.setAttribute(`data-game2`,`csGo`)
+// console.log(attri.dataset.game)
+
+
+
+
+// Element insertion 
+
+// let div = document.createElement(`span`)
+// div.innerText =`hey`
+// console.log(div)
+
+// let elm = document.getElementsByClassName(`container`)[1].lastElementChild
+// console.log(elm);
+
+// elm.appendChild(div); //add in last 
+// elm.prepend(div); //add in first
+// elm.before(div); //outside up 
+// elm.after(div);  //outside down
+// elm.replaceWith(div);  // replace elm element to div
+
+// elm.remove() //remove element from dom
+
+
+
+
+// beforebegin 
+// afterbegin 
+// beforeend 
+// afterend 
+
+
+// elm.insertAdjacentHTML(`beforebegin`, `outside up`)
+// elm.insertAdjacentHTML(`afterbegin`, `inside up`)
+// elm.insertAdjacentHTML(`beforeend`, `inside down`)
+// elm.insertAdjacentHTML(`afterend`, `outside down`)
+
+
+
+
+
+
+// classList and className methods
+
+let con = document.getElementsByClassName(`container`)[0];
+con.className = `container red mx-2 py-3 px-21 mt-5`
+
+
+// console.log(con.classList);
+
+// con.classList.remove(`red`) //add
+
+// con.classList.add(`hello`) // remove
+
+// con.classList.toggle(`hello`) //if alredy added remove and if not added add it
+
+// console.log(con.classList.contains(`hello`)) //true / false
+
+// console.log(con)
+
+
 
 
 
