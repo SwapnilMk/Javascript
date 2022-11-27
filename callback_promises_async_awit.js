@@ -213,13 +213,42 @@
 
 
 // finally clause 
-try {
-    let a = 0;
-    console.log(a1);
-} catch (error) {
-    console.log(error.name)
-    console.log(error.message)
-} finally {
-    console.log(`i am groot`);
-}
+// try {
+//     let a = 0;
+//     console.log(a1);
+// } catch (error) {
+//     console.log(error.name)
+//     console.log(error.message)
+// } finally {
+//     console.log(`i am groot`);
+// }
+
+
+
+
+
+
+// const lodeSrc = async (src) => {
+//     return new Promise((resolve, reject) => {
+//         let script = document.createElement(`script`)
+//         script.src = src;
+//         script.onload = () => {
+//             resolve(src + ` done`)
+//         }
+//         document.head.appendChild(script)
+//     })
+// }
+
+// let a = lodeSrc(`https://cdn.tailwindcss.com`)
+
+// setTimeout(() => {
+
+//     console.log(a);
+// }, 1000)
+
+
+// a.then((value) => {
+//     console.log(value)
+// })
+
 
