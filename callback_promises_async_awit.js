@@ -158,27 +158,68 @@
 
 
 
-const daddy = async()=>{
-    let a = new Promise((resolve, reject)=>{
-        setTimeout(()=>{
-            console.log(`i am inside a`)
-            resolve(`a`)
-        },2000)
-    })
+// const daddy = async()=>{
+//     let a = new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             console.log(`i am inside a`)
+//             resolve(`a`)
+//         },2000)
+//     })
 
-    let b = new Promise((resolve, reject)=>{
-        setTimeout(()=>{
-            console.log(`i am inside b`)
-            resolve(`b`)
-        },4000)
-    })
+//     let b = new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             console.log(`i am inside b`)
+//             resolve(`b`)
+//         },4000)
+//     })
 
-    let promise_a = await a;
-    let promise_b = await b;
-    return[promise_a,promise_b]
+//     let promise_a = await a;
+//     let promise_b = await b;
+//     return[promise_a,promise_b]
 
+// }
+
+// daddy().then((value) => {
+//     console.log(value);
+// })
+
+
+
+//error handling
+
+
+//try catch
+
+// console.log(`hey`)
+
+// try {
+//     console.log(hey); 
+// } catch (error) {
+//     console.log(`error is` + ` ` +error)
+// }
+
+
+
+
+// try {
+//     // console.log(eroor); 
+//     throw new Error(`i am noob`)
+// } catch (error) {
+//     console.log(error.name)
+//     console.log(error.message)
+//     console.log(error.stack)
+// }
+
+
+
+// finally clause 
+try {
+    let a = 0;
+    console.log(a1);
+} catch (error) {
+    console.log(error.name)
+    console.log(error.message)
+} finally {
+    console.log(`i am groot`);
 }
 
-daddy().then((value) => {
-    console.log(value);
-})
