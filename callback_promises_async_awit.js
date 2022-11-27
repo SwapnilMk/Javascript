@@ -141,3 +141,44 @@
 // promise_all.then((value)=>{
 //     console.log(value);
 // })
+
+
+
+// async await 
+
+// async function hey(){       
+//     console.log(hey)
+//     return 12
+// }
+
+// hey().then((value) => {
+//     console.log(value);
+// })
+
+
+
+
+const daddy = async()=>{
+    let a = new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            console.log(`i am inside a`)
+            resolve(`a`)
+        },2000)
+    })
+
+    let b = new Promise((resolve, reject)=>{
+        setTimeout(()=>{
+            console.log(`i am inside b`)
+            resolve(`b`)
+        },4000)
+    })
+
+    let promise_a = await a;
+    let promise_b = await b;
+    return[promise_a,promise_b]
+
+}
+
+daddy().then((value) => {
+    console.log(value);
+})
