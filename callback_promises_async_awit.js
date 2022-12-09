@@ -2,15 +2,12 @@
 // Asynchronize
 // console.log(`hey am first`)
 
-
-
-
-
 // setTimeout(()=>{
 // console.log(`i am groot`)
 // }, 1000)
 
 // console.log(`hey am last`)
+
 
 
 //callbacks
@@ -47,11 +44,57 @@
 
 
 // let promise = new Promise((reslove, reject)=>{
-//     console.log(`hello`);
-//     reslove(42)
+    // console.log(`hello`);
+//     if(true){
+//         reslove(42)
+//     }else{
+//         reject(true)
+//     }
+// })
+
+// promise.then((value)=>{
+//     console.log(value);
+// }).catch((error)=>{
+//     console.log(new Error())
 // })
 
 // console.log(promise);
+
+
+
+
+
+
+// let p = new Promise((resolve, reject)=>{
+//     let a = true
+//     setTimeout(()=>{
+//         console.log(`promise is pending`)
+//         if(a == true){
+//             resolve(a)
+//         } else {
+//             reject(new Error)
+//         }
+//     }, 3000)
+// })
+
+
+// p.then((value)=>{
+//     console.log(value);
+// }).catch((error)=>{
+//     console.log(error)
+// })
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -59,7 +102,7 @@
 //     console.log(`i am promise`)
 //     setTimeout(()=>{
 //         console.log(`i am promise not resolve`);
-//         // reslove(true)
+        // reslove(true)
 //         reject(true)
 //     }, 2000)
 // })
@@ -69,7 +112,7 @@
 // p.then((value)=>{
 //     console.log(value)
 // },(error)=>{
-//     console.log(`an error occured`);
+//     console.log(`an error occured`, new Error(error));
 // })
 
 
@@ -90,7 +133,8 @@
 //             console.log(`this is promise 2`);
 //             resolve(212)
 //         }, 1000);
-//     }).then((value) => {
+//     })
+//     p1.then((value) => {
 //         console.log(`we are done`, value);
 //         let p2 = new Promise((resolve, reject) => {
 //             resolve(true)
@@ -195,14 +239,14 @@
 // try {
 //     console.log(hey); 
 // } catch (error) {
-//     console.log(`error is` + ` ` +error)
+//     console.log(`error is` + ` ` + error)
 // }
 
 
 
 
 // try {
-//     // console.log(eroor); 
+//     console.log(`error`); 
 //     throw new Error(`i am noob`)
 // } catch (error) {
 //     console.log(error.name)
@@ -214,15 +258,13 @@
 
 // finally clause 
 // try {
-//     let a = 0;
-//     console.log(a1);
+//     throw new Error(`hey i am error`)
 // } catch (error) {
 //     console.log(error.name)
 //     console.log(error.message)
 // } finally {
-//     console.log(`i am groot`);
+//     console.log(`i am Groot`);
 // }
-
 
 
 
@@ -250,5 +292,6 @@
 // a.then((value) => {
 //     console.log(value)
 // })
+
 
 

@@ -8,8 +8,8 @@
 // }
 
 
-// for(let i in arr){
-//     console.log(arr[i])
+// for(let index in arr){
+//     console.log(arr[index])
 // }
 
 
@@ -18,44 +18,63 @@
 // }
 
 
-// arr.forEach((elm)=>{
+// arr.forEach((elm, index ,arr)=>{
 //     console.log(elm);
+//     console.log(index);
+//     console.log(arr);
 // })
 
 
 
-// const marks = [800, 78, 67, 86, 90, 34, 5, 54, 6, 7, 8, 678];
+// const marks = [800, 78, 67, 86, 90];
 // delete marks[1];
-// console.log(arr[1]);
+// marks[1] = 55;
+// console.log(marks.toString());
+
+// let splice = marks.splice(2,4)
+// console.log(splice)
+
 
 // const str = marks.toString()
 // console.log(str);
 
-
-
-// marks.splice(2,4,12,34,324,3,534,534,34)
+// marks.splice(2,1)
 // console.log(marks)
 
-// let a = marks.slice(2,10)
-// console.log(marks);
+
+// let a = marks.slice(2,4)
+// console.log(a);
+
+// let arr = [1,2,34,4,5,6,7,100,234,12,456,884,1233]
+
+// arr.sort((a,b)=>{
+//     return a - b
+// })
+// console.log(arr);
 
 
-// let sorting =(a,b)=>{
-//     return a-b;
-// }
-// marks.sort(sorting)
-// console.log(marks);
+
+// let Under100 = arr.filter((a)=>{
+//     return a > 100;
+// })
+// console.log(Under100);
+
+
 
 
 //there are two ways to create array
-// let arr1 = Array.of(1,2,3,4,`swao`)
+// let arr1 = Array.of(1,2,3,4,`swap`)
 // console.log(arr1);
 
-// let arr2 = new Array(`swap`,`nap`);
+// let arr4 = new Array(`swap`,`nap`);
 // console.log(arr2);
 
 
-// let arr3 = marks.concat(arr1,arr2);
+// const arr1 = [`swapnil`,`kishor`,`mahadik`]
+// const arr2 = [23,`maharasthra`, 410206]
+
+
+// let arr3 = arr1.concat(arr2, `swap`, arr4);
 // console.log(arr3);
 
 
@@ -74,15 +93,15 @@
 
 
 
-// const names = Array.of(`homelander`,`starlight`,`mave`,`bucher`,`komiko`)
+// const superHeros = Array.of(`homelander`,`starlight`,`mave`,`bucher`,`komiko`)
 
-// names.unshift(`swapyy`); add 1st element in array
-// names.push(`last`); add last element in array
-// names.shift(); remove 1st element in  array
-// names.pop(); remove last element in array
-// names[6] = `samiyaah`
-// names.reverse();
-// console.log(names);
+// superHeros.unshift(`swapyy`); // add 1st element in array
+// superHeros.push(`last`); add last element in array
+// superHeros.shift(); remove 1st element in  array
+// superHeros.pop(); remove last element in array
+// superHeros[6] = `samiyaah`
+// superHeros.reverse();
+// console.log(superHeros);
 
 
 
@@ -102,7 +121,7 @@
 
 
 
-// let val = arr.indexOf(234);
+// let val = superHeros.indexOf(`mave`);
 // console.log(val);
 
 
@@ -128,6 +147,18 @@
 
 // const arr = [16,24,3,4,522,6,76,25]
 
+// let newArr = arr.map((e)=>{
+//     return e + 1;
+// })
+
+// console.log(newArr);
+
+// let sortArr = newArr.sort((a, b) => {
+//     return a - b
+// })
+
+// sortArr.reverse()
+// console.log(sortArr)
 
 // arr.forEach((element,index,array)=>{
     //     console.log(element)
@@ -143,9 +174,9 @@
 
 
 // let fill = arr.filter((element)=>{
-    //     return element < 30
-    // })
-    // console.log(fill);
+//         return element < 30
+//     })
+//     console.log(fill);
 
 
     // let red = arr.reduce((a1,b1)=>{
@@ -159,12 +190,12 @@
 
 
 
-    const arr = [1,2,4,5,6,70,80,45450,2420];
+    // const arr = [1,2,4,5,6,70,80,45450,2420];
 
-    let sqr = arr.map((element)=>{
-        return element * element
-    })
-    console.log(sqr);
+    // let sqr = arr.map((element)=>{
+    //     return element * element
+    // })
+    // console.log(sqr);
 
 
 

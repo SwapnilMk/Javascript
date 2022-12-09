@@ -4,7 +4,7 @@ let age = `22`;
 console.log(typeof age);
 
 age = Number.parseInt(age)
-console.log(age);
+console.log(typeof age);
 
 // if else statement 
 

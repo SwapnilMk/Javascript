@@ -1,15 +1,27 @@
-console.log("all about variables let var and const")
+// console.log("all about variables let var and const")
 
 // let stuName = `swapyy`;
-// let age = 23;
+// let age  = 23;
+// let a = Number(1);
+// let b = parseFloat(`3.5`);
+// let f = parseInt(`332.235`);
+// let c = String(`w`);
+// let d = Boolean(12);
+
+// console.log(f);
+
+// const myDetail = (stuName, age)=>{
+//     return `my name is ${stuName} and my age is ${age}`
+// } 
+
+// let val = myDetail(stuName, age)
+// console.log(val);
 
 // function myDetails(){
-//   console.log(stuName, age)
+//     console.log(stuName, age)
 // }
 
 // console.log (`my name is ${stuName} and my age is ${age}`)
-// myDetails()
-
 
 // there are some rules for declare variables 
 // let _name = `swapyy`;
@@ -41,8 +53,9 @@ console.log("all about variables let var and const")
 // var b = `swapyy`;
 // console.log(b) //swapyy
 // {
-//   var b = `samiyaah`
-//   console.log(b) //samiayaah
+//     console.log(b) //samiayaah
+//     var b = `samiyaah`
+//     console.log(b) //samiayaah
 // }
 // console.log(b) // samiyaah
 
@@ -51,8 +64,8 @@ console.log("all about variables let var and const")
 // let b = `swapyy`;
 // console.log(b) //swapyy
 // {
-//   let b = `samiyaah`
-//   console.log(b) //samiayaah
+//     let b = `samiyaah`
+//     console.log(b) //samiayaah
 // }
 // console.log(b) // swapyy
 
@@ -60,7 +73,7 @@ console.log("all about variables let var and const")
 // const name; //cannot do this
 // let name; //do this  //output undefine
 // var name; //do this  //output undefine
-
+// console.log(name)
 
 
 
@@ -78,7 +91,7 @@ console.log("all about variables let var and const")
 //     var name = `swapyy`; // this is only function level scope and this is not accessible in outside of the function
 //     console.log(name);
 // }
-// console.log(name); output is undefine
+// console.log(name); // output is undefine
 
 // var name = `swapyy`; //this is global scope access everywhere
 
@@ -99,8 +112,8 @@ console.log("all about variables let var and const")
 // }
 
 
-// greet.sayhi = `sat`
-// console.log(greet.sayhi);
+// greet.sayhi = `swapyy`
+// console.log(greet);
 
 
 
