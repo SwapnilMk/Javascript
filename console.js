@@ -1,7 +1,7 @@
 // different types of console logs 
 
-let a;
-a = 12;
+// let a;
+// a = 12;
 
 // console.time(`code`)
 // console.log(typeof a);
