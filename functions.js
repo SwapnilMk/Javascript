@@ -2,19 +2,19 @@ let a = 1;
 let b = 2;
 
 // normal function 
-function avg(a,b) {
-    console.log(`avg of a and b is`,  (a+b)/2);
-}
-avg(1,5)
+// function avg(a,b) {
+//     console.log(`avg of a and b is`,  (a+b)/2);
+// }
+// avg(1,5)
 
 
 //   arrow function 
-let func = ()=>{
-    console.log(`hey`)
-    return `i am noob`;
-}
+// let func = ()=>{
+//     console.log(`hey`)
+//     return `i am noob`;
+// }
 
-console.log(func())
+// console.log(func())
 
 
 
@@ -82,3 +82,52 @@ console.log(func())
 //     console.log(`annonomus function`);
 // }
 // myfun();
+
+
+
+// immediately invoked function 
+
+// let abc =()=>{
+//    return new Promise((resolve, reject)=>{
+//         setTimeout(()=>{
+//             resolve(23)
+//         },2300)
+//     })
+// } 
+
+// (async()=>{
+//     let a = await abc
+//     console.log(a);
+// })()
+
+// abc.then((value)=>{
+//     console.log(value);
+// })
+
+
+
+
+
+
+
+// arrow function extra  
+const sayHello = name => {
+    console.log("greeting" + " " + name)
+    console.log("hi")
+  }
+  
+  const x = {
+    name: "Harry",
+    role: "Js Developer",
+    exp: 30,
+    show: function() {
+      // let that = this
+      // console.log(this)
+      setTimeout(() => {
+        console.log(`The name is ${this.name}\nThe role is ${this.role}`)
+      }, 2000)
+    }
+  }
+  sayHello("Harry", "Good Afternoon")
+  // console.log(x.name, x.exp)
+  // x.show()
