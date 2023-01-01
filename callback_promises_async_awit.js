@@ -2,6 +2,8 @@
 // Asynchronize
 // console.log(`hey am first`)
 
+
+
 // setTimeout(()=>{
 // console.log(`i am groot`)
 // }, 1000)
@@ -13,6 +15,22 @@
 //callbacks
 
 // pass function as a argument 
+
+// let name = [`mave`,`homelander`,`steave`,`ironman`,`hulk`]
+
+// function showName(name) {
+//     for (let i = 0; i < name.length; i++) {
+//         const value = name[i];
+//         console.log(value)
+//     }
+// }
+
+// function convertArr(callback) {
+//     showName(name)
+// }
+
+// convertArr()
+
 
 // function loadSrc(src, callback) {
 //     let script = document.createElement(`script`);
@@ -42,9 +60,30 @@
 
 //promises
 
+// let Myname = new Promise((resolve, reject)=>{
+//     setTimeout(()=>{
+//         let error = false
+//         if(!error){
+//             resolve()
+//         }else{
+//             reject()
+//         }
+//     },5000)
+// })
+
+// Myname.then(()=>{
+// let logo = document.getElementById(`logoName`)
+// logo.innerText = `swapnil`
+// console.log(`promise is resloved`)
+// }).catch((error) => {
+//     console.log(new Error(`error is ${error}`))
+// })
+
+
+
 
 // let promise = new Promise((reslove, reject)=>{
-    // console.log(`hello`);
+//     console.log(`hello`);
 //     if(true){
 //         reslove(42)
 //     }else{
@@ -83,16 +122,6 @@
 // }).catch((error)=>{
 //     console.log(error)
 // })
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -138,7 +167,7 @@
 //         console.log(`we are done`, value);
 //         let p2 = new Promise((resolve, reject) => {
 //             resolve(true)
-//             console.log(`haha done bro`)
+//             console.log(`done bro`)
 //         })
 //     })
 // })
@@ -148,14 +177,18 @@
 
 // Promise Api methods 
 
-// let p1 = new Promise((resolve,reject)=>{
+// let p1 = new Promise((resolve, reject)=>{
 //     setTimeout(()=>{
 //         resolve(1)
 //         console.log(`p1 done`);
 //     }, 1000)
 // });
 
-// let p2 = new Promise((resolve,reject)=>{
+// p1.then((value)=>{
+//     console.log(value);
+// })
+
+// let p2 = new Promise((resolve, reject)=>{
 //     setTimeout(()=>{
 //         resolve(`swap`)
 //         console.log(`p2 done`);
@@ -163,7 +196,7 @@
 // })
 
 
-// let p3 = new Promise((resolve,reject)=>{
+// let p3 = new Promise((resolve, reject)=>{
 //     setTimeout(()=>{
 //         resolve(true)
 //         console.log(`p3 done`);
@@ -191,13 +224,29 @@
 // async await 
 
 // async function hey(){       
-//     console.log(hey)
 //     return 12
 // }
 
 // hey().then((value) => {
 //     console.log(value);
 // })
+
+
+
+
+
+
+// ProcessReq(`google`).then((value) => {
+//     console.log(value);
+// })
+
+
+// async function execute(){
+//     const process = await ProcessReq(`google`)
+//     console.log(process)
+// }
+
+// execute()
 
 
 

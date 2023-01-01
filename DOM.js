@@ -103,7 +103,7 @@
 // let att = document.getElementById(`first`).getAttribute(`class`)
 // console.log(att)
 
-let attr = document.getElementById(`first`)
+// let attr = document.getElementById(`first`)
 // console.log(attr.hasAttribute(`style`))
 
 // attr.setAttribute(`hidden`, true)
@@ -159,8 +159,8 @@ let attr = document.getElementById(`first`)
 
 // classList and className methods
 
-let con = document.getElementsByClassName(`container`)[0];
-con.className = `container red mx-2 py-3 px-21 mt-5`
+// let con = document.getElementsByClassName(`container`)[0];
+// con.className = `container red mx-2 py-3 px-21 mt-5`
 
 
 // console.log(con.classList);

@@ -1,4 +1,4 @@
-// let arr = [3 , 5, 8, 33, 3,2,2]
+// let arr = [3, 5, 8, 33, 3, 2, 2]
 // let [a , b, ...rest] = arr
 // console.log(a, b, rest);
 

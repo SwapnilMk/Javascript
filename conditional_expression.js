@@ -1,45 +1,45 @@
-console.log(`conditional expression`)
+console.log(`conditional expressions`)
 
-let age = `22`;
-console.log(typeof age);
+// let age = `22`;
+// console.log(typeof age);
 
-age = Number.parseInt(age)
-console.log(typeof age);
+// age = Number.parseInt(age)
+// console.log(typeof age);
 
 // if else statement 
 
-if(age == 18){
-  console.log(`get your driving license`)
-} else if(age >= 21){
-  console.log(`u can drive`)
-} else {
-  console.log(`go to school`)
-}
+// if(age == 18){
+//   console.log(`get your driving license`)
+// } else if(age >= 21){
+//   console.log(`u can drive`)
+// } else {
+//   console.log(`go to school`)
+// }
 
 
 // switch case statement
 
-let name = `samiyaah`;
+// let name = `samiyaah`;
 
-switch(name){   
-  case `swapyy`: console.log(`i am swapyy`);
-    break;
-  case `samiyaah` : console.log(`i am unii`);
-    break;
-  case `lokesh`: console.log(`i am loki`);
-    break;
-  default: console.log(`default`);
-}
+// switch(name){   
+//   case `swapyy`: console.log(`i am swapyy`);
+//     break;
+//   case `samiyaah` : console.log(`i am unii`);
+//     break;
+//   case `lokesh`: console.log(`i am loki`);
+//     break;
+//   default: console.log(`default`);
+// }
 
 
 
 //turnary operator
 // let num = 122;
-// console.log(num<22? `true`:`false`)
+// console.log(num<222? `true`:`false`)
 
 
-let agee = 7;
-console.log(agee>=18? `you can drive`: `you cannot`);
+// let agee = 7;
+// console.log(agee>=18? `you can drive`: `you cannot`);
 
 
 
@@ -50,8 +50,6 @@ console.log(agee>=18? `you can drive`: `you cannot`);
 
 // if else statement 
 
-// let name = `swapyy`
-// let surname = `mahadik`
 // let age = 222010;
 
 // if (age > 2234) {
@@ -63,8 +61,6 @@ console.log(agee>=18? `you can drive`: `you cannot`);
 // }
 
 
-
-// age = 18;
 
 
 // switch statement 
